@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+
+body{
+    background: rgb(196, 193, 193);
+    padding: 3em;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+ul{
+    list-style-type: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+ul li{
+    display: inline;
+    margin-right: 30px;
+}
+ul li a{
+    font-size: 1.5em;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
